@@ -11,7 +11,8 @@ This repository provides starter code and data for Projects 1 and 2.
 
 ## Project 1: Bayesian Structure Learning
 
-See full details here: https://web.stanford.edu/class/aa228/cgi-bin/wp/project-1/
+[![Project 1 Details](https://img.shields.io/badge/project1-details-blue)](https://web.stanford.edu/class/aa228/cgi-bin/wp/project-1/)
+
 
     project1/
     ├── data                    # CSV data files to apply structured learning
@@ -28,16 +29,39 @@ See full details here: https://web.stanford.edu/class/aa228/cgi-bin/wp/project-1
     └── project1.py             # Starter code in Python (optional, meant to help)
 
 Notes:
-- the starter code is there to help, but you're free to use any language.
-- use `example.gph` to validate your Bayesian scoring algorithm, not your structured learning algorithm.
+- The starter code is there to help, but you're free to use any language.
+- Use `example.gph` to validate your Bayesian scoring algorithm, not your structured learning algorithm.
 
 <sup>1</sup>https://cran.r-project.org/web/packages/titanic/titanic.pdf
 <br>
 <sup>2</sup>https://archive.ics.uci.edu/ml/datasets/Wine+Quality
 
+#### Graph Plotting
+Here are some resources for plotting graphs in Julia, Python, and MATLAB.
+- Julia:
+    - `TikzGraphs.jl` https://nbviewer.jupyter.org/github/JuliaTeX/TikzGraphs.jl/blob/master/doc/TikzGraphs.ipynb
+    - `GraphPlot.jl` https://github.com/JuliaGraphs/GraphPlot.jl
+- Python:
+    - `NetworkX` https://networkx.github.io/documentation/stable/tutorial.html
+- MATLAB:
+    - `GraphPlot` https://www.mathworks.com/help/matlab/ref/matlab.graphics.chart.primitive.graphplot.html
+
+Here's a minimum working example using `TikzGraphs.jl` in Julia:
+```julia
+using LightGraphs  # for DiGraph and add_edge!
+using TikzGraphs   # for TikZ plot output
+using TikzPictures # to save TikZ as PDF
+
+g = DiGraph(2) # create a directed graph
+add_edge!(g, 1, 2) # add edge from node 1 to node 2
+
+p = plot(g) # create TikZ plot
+save(PDF("graph.pdf"), p) # save TikZ as PDF
+```
 
 ## Project 2: Reinforcement Learning
-https://web.stanford.edu/class/aa228/cgi-bin/wp/project-2/
+
+[![Project 2 Details](https://img.shields.io/badge/project2-details-blue)](https://web.stanford.edu/class/aa228/cgi-bin/wp/project-2/)
 
     project2/
     └── data                      # CSV data files of (s,a,r,sp)
@@ -45,7 +69,7 @@ https://web.stanford.edu/class/aa228/cgi-bin/wp/project-2/
         ├── medium.csv                # MountainCarContinuous-v0
         └── large.csv                 # Secret RL problem
 
-Note: no starter code provided for Project 2 (you're free to use any language).
+*Note: no starter code provided for Project 2.*
 
 ## Contact
 Please post on [Piazza](https://piazza.com/) with any questions regarding this code, the data, and the projects in general. We'd be happy to help!
