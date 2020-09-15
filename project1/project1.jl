@@ -9,10 +9,11 @@ Takes a DiGraph, a Dict of index to names and a output filename to write the gra
 function write_gph(dag::DiGraph, idx2names, filename)
     open(filename, "w") do io
         for edge in edges(dag)
-            @printf(io, "%s, %s\n", idx2names[src(edge)], idx2names[dst(edge)])
+            @printf(io, "%s,%s\n", idx2names[src(edge)], idx2names[dst(edge)])
         end
     end
 end
+
 
 function compute(infile, outfile)
 
