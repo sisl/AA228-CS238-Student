@@ -15,7 +15,7 @@ This repository provides starter code and data for Projects 1 and 2.
 
 [![Project 1 Details](https://img.shields.io/badge/project1-details-blue)](https://web.stanford.edu/class/aa228/cgi-bin/wp/project-1/) [![Project 1 Template](https://img.shields.io/badge/project1-LaTeX%20template-white)](https://www.overleaf.com/read/hxwgtnksxtts)
 
-[LaTeX Overleaf template](https://www.overleaf.com/read/hxwgtnksxtts): click the link, go to "Menu", and "Copy Project" (make sure you're signed into Overleaf).
+[LaTeX Overleaf template](https://www.overleaf.com/read/hxwgtnksxtts): click the link, go to "Menu", and "Copy Project" (make sure you're signed into Overleaf). Note this is an optional template, you're free to use your own (or not even LaTeX).
 
     project1/
     ├── data                    # CSV data files to apply structured learning
@@ -64,7 +64,9 @@ save(PDF("graph.pdf"), p) # save TikZ as PDF
 
 ## Project 2: Reinforcement Learning
 
-[![Project 2 Details](https://img.shields.io/badge/project2-details-blue)](https://web.stanford.edu/class/aa228/cgi-bin/wp/project-2/)
+[![Project 2 Details](https://img.shields.io/badge/project2-details-blue)](https://web.stanford.edu/class/aa228/cgi-bin/wp/project-2/) [![Project 2 Template](https://img.shields.io/badge/project2-LaTeX%20template-white)](https://www.overleaf.com/read/gsptsmcrzpdv)
+
+[LaTeX Overleaf template](https://www.overleaf.com/read/gsptsmcrzpdv): click the link, go to "Menu", and "Copy Project" (make sure you're signed into Overleaf). Note this is an optional template, you're free to use your own (or not even LaTeX).
 
     project2/
     └── data                      # CSV data files of (s,a,r,sp)
