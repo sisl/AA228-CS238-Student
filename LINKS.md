@@ -28,7 +28,7 @@ Optional! You aren't even required to use LaTeX!
 
 ---
 
-### 5. ❔ Ask questions on Piazza
-[![AA228/CS238 Piazza](https://img.shields.io/badge/aa228%2Fcs238-piazza-blue?color=4b79b1)](https://piazza.com/class/kdpibkycz7b29t)
+### 5. ❔ Ask questions on Ed
+[![AA228/CS238 Ed](https://img.shields.io/badge/aa228%2Fcs238-ed%20discussion-blue?color=4b79b1)](https://edstem.org/us/courses/6851/discussion/)
 
 ---
