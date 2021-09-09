@@ -73,4 +73,4 @@ save(PDF("graph.pdf"), p) # save TikZ as PDF
 *Note: no starter code provided for Project 2.*
 
 ## Contact
-Please post on [Piazza](https://piazza.com/) with any questions regarding this code, the data, and the projects in general. We'd be happy to help!
+Please post on [Ed](https://edstem.org/) with any questions regarding this code, the data, and the projects in general. We'd be happy to help!
