@@ -40,6 +40,7 @@ Here are some resources for plotting graphs in Julia, Python, and MATLAB.
 - Julia:
     - `TikzGraphs.jl` https://nbviewer.jupyter.org/github/JuliaTeX/TikzGraphs.jl/blob/master/doc/TikzGraphs.ipynb
     - `GraphPlot.jl` https://github.com/JuliaGraphs/GraphPlot.jl
+    - `LightGraphs.jl` (**archived docs**: https://docs.juliahub.com/LightGraphs/Xm08G/1.3.5/)
 - Python:
     - `NetworkX` https://networkx.github.io/documentation/stable/tutorial.html
 - MATLAB:
