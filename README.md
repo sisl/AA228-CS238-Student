@@ -2,7 +2,7 @@
 [![AA228/CS238 Gradescope](https://img.shields.io/badge/aa228%2Fcs238-gradescope-green?color=42a0a2)](https://www.gradescope.com/courses/306587)
 
 
-[AA228/CS238: Decision Making under Uncertainty](https://aa228.stanford.edu), Autumn 2021, Stanford University.
+[AA228/CS238: Decision Making under Uncertainty](https://aa228.stanford.edu), Winter 2023, Stanford University.
 
 This repository provides starter code and data for Projects 1 and 2.
 
@@ -29,7 +29,7 @@ This repository provides starter code and data for Projects 1 and 2.
 
 Notes:
 - The starter code is there to help, but you're free to use any language.
-- Use `example.gph` to validate your Bayesian scoring algorithm, not your structured learning algorithm.
+- Use `example.gph` to validate your Bayesian scoring algorithm, not your structure learning algorithm.
 
 <sup>1</sup>https://cran.r-project.org/web/packages/titanic/titanic.pdf
 <br>
@@ -40,7 +40,7 @@ Here are some resources for plotting graphs in Julia, Python, and MATLAB.
 - Julia:
     - `TikzGraphs.jl` https://nbviewer.jupyter.org/github/JuliaTeX/TikzGraphs.jl/blob/master/doc/TikzGraphs.ipynb
     - `GraphPlot.jl` https://github.com/JuliaGraphs/GraphPlot.jl
-    - `LightGraphs.jl` (**archived docs**: https://docs.juliahub.com/LightGraphs/Xm08G/1.3.5/)
+    - `Graphs.jl` https://juliagraphs.org/Graphs.jl/dev/
 - Python:
     - `NetworkX` https://networkx.github.io/documentation/stable/tutorial.html
 - MATLAB:
