@@ -38,17 +38,17 @@ Notes:
 #### Graph Plotting
 Here are some resources for plotting graphs in Julia, Python, and MATLAB.
 - Julia:
-    - `TikzGraphs.jl` https://nbviewer.jupyter.org/github/JuliaTeX/TikzGraphs.jl/blob/master/doc/TikzGraphs.ipynb
-    - `GraphPlot.jl` https://github.com/JuliaGraphs/GraphPlot.jl
-    - `Graphs.jl` https://juliagraphs.org/Graphs.jl/dev/
+    - [`TikzGraphs.jl`](https://nbviewer.jupyter.org/github/JuliaTeX/TikzGraphs.jl/blob/master/doc/TikzGraphs.ipynb)
+    - [`GraphPlot.jl`](https://github.com/JuliaGraphs/GraphPlot.jl)
+    - [`Graphs.jl`](https://juliagraphs.org/Graphs.jl/dev/)
 - Python:
-    - `NetworkX` https://networkx.github.io/documentation/stable/tutorial.html
+    - [`NetworkX`](https://networkx.github.io/documentation/stable/tutorial.html)
 - MATLAB:
-    - `GraphPlot` https://www.mathworks.com/help/matlab/ref/matlab.graphics.chart.primitive.graphplot.html
+    - [`GraphPlot`](https://www.mathworks.com/help/matlab/ref/matlab.graphics.chart.primitive.graphplot.html)
 
 Here's a minimum working example using `TikzGraphs.jl` in Julia:
 ```julia
-using LightGraphs  # for DiGraph and add_edge!
+using Graphs  # for DiGraph and add_edge!
 using TikzGraphs   # for TikZ plot output
 using TikzPictures # to save TikZ as PDF
 
