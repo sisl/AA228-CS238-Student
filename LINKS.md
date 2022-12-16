@@ -22,13 +22,13 @@ Optional! You aren't even required to use LaTeX!
 ---
 
 ### 4. ✔️ Gradescope submissions
-[![AA228/CS238 Gradescope](https://img.shields.io/badge/aa228%2Fcs238-gradescope-green?color=42a0a2)](https://www.gradescope.com/courses/158095)
+[![AA228/CS238 Gradescope](https://img.shields.io/badge/aa228%2Fcs238-gradescope-green?color=42a0a2)](https://www.gradescope.com/courses/466858)
 
 *Project # (.xxx files)* and *Project # (README.pdf)*
 
 ---
 
 ### 5. ❔ Ask questions on Ed
-[![AA228/CS238 Ed](https://img.shields.io/badge/aa228%2Fcs238-ed%20discussion-blue?color=4b79b1)](https://edstem.org/us/courses/6851/discussion/)
+[![AA228/CS238 Ed](https://img.shields.io/badge/aa228%2Fcs238-ed%20discussion-blue?color=4b79b1)](https://edstem.org/us/courses/31039/discussion/)
 
 ---
