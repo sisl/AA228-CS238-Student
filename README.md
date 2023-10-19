@@ -19,7 +19,7 @@ This repository provides starter code and data for Projects 1 and 2.
     │   ├── medium.csv              # Wine dataset²
     │   └── large.csv               # Secret dataset
     ├── example                 # Helpful examples
-    │   ├── example.gph             # Example graph (3 parents, 1 child each)
+    │   ├── example.gph             # Example graph (3 parents, 2 children with 1 parent each and 1 child with 3 parents)
     │   ├── example.csv             # Example data generated from "example.gph"
     │   ├── example.score           # Bayesian score of the "examples.gph" given the data "examples.csv"
     │   ├── examples.pdf            # Visualized "examples.gph" as a TikZ graph
