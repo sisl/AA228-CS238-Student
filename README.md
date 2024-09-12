@@ -8,6 +8,8 @@ This repository provides starter code and data for Projects 1 and 2.
 
 ## Project 0: 
 
+[![Project 0 Details](https://img.shields.io/badge/project0-details-blue)](https://aa228.stanford.edu/project-0/)
+
 ## Project 1: Bayesian Structure Learning
 
 [![Project 1 Details](https://img.shields.io/badge/project1-details-blue)](https://aa228.stanford.edu/project-1/) [![Project 1 Template](https://img.shields.io/badge/project1-LaTeX%20template-white)](https://www.overleaf.com/read/hxwgtnksxtts)
