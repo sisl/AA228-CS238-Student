@@ -57,7 +57,7 @@ using Graphs  # for DiGraph and add_edge!
 using TikzGraphs   # for TikZ plot output
 
 # An example [Chvatal Graph](https://en.wikipedia.org/wiki/Chv%C3%A1tal_graph)
-g = smallgraph(:chvatal) 
+g = wheel_digraph(12) 
 
 # Create notional names for the nodes
 node_names = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L"]
@@ -67,7 +67,7 @@ p = plot(g, node_names)
 
 # Save as PDF (using TikzPictures)
 using TikzPictures # to save TikZ as PDF
-save(PDF("chvatal_tikz.pdf"), p)
+save(PDF("wheel_tikz.pdf"), p)
 ```
 
 ##### GraphPlot.jl
@@ -75,14 +75,14 @@ save(PDF("chvatal_tikz.pdf"), p)
 using Graphs
 using GraphPlot
 
-g = smallgraph(:chvatal)
+g = wheel_digraph(12)
 node_names = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L"]
 
 p = gplot(g; nodelabel=node_names)
 
 # Save using Compose
 using Compose, Cairo, Fontconfig
-draw(PDF("chvatal_graphplot.pdf", 16cm, 16cm), p)
+draw(PDF("wheel_graphplot.pdf", 16cm, 16cm), p)
 ```
 
 #### GraphRecipes.jl
@@ -92,12 +92,12 @@ using Plots
 using GraphRecipes
 
 
-g = smallgraph(:chvatal)
+g = wheel_digraph(12)
 node_names = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L"]
 
 p = graphplot(g; names=node_names, node_size=0.2)
 
-savefig(p, "chvatal_graphrecipes.pdf")
+savefig(p, "wheel_graphrecipes.pdf")
 ```
 
 ## Project 2: Reinforcement Learning
